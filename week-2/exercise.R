@@ -9,16 +9,17 @@ my_vector <- c(my_num, initials)
 vector_sum <- sum(my_vector)
 
 # Describe why this doesn't work: 
-# 
+# it can not be be less than vector sum
 
 install.packages("stringr")
 
 my_line <- "Hey, hey, this is the library"
 
 print(str_length(my_line))
+(str_length(my_line))
 
 # Describe why this doesn't work: 
-# 
+# Can not have opened parenthesis
 
 said_the_famous <- paste(my_line, " - ", initial)
 
